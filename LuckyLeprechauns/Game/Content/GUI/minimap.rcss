@@ -1,0 +1,19 @@
+div#minimap
+{
+	width:300px;
+	height:300px;
+	margin:10px 0 0 auto;
+
+	background-decorator:image;
+	background-image-src:./images/minimap/map_ortho.tga;
+}
+
+div#minimap img
+{
+	left:0;
+	top:0;
+	width:16px;
+	height:16px;
+	position:absolute;
+	visibility:hidden;
+}

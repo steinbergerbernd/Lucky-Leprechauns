@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <TargetName>FrameworkTest</TargetName>
+    <ProjectTypes>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}</ProjectTypes>
+    <ProjectGUID>{46935CF4-696C-4968-A948-DF35F6CCDF3C}</ProjectGUID>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>FrameworkTest</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup>
+    <PostBuildEventCommand>if exist app.config copy app.config "$(OutDir)app.config"</PostBuildEventCommand>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CodeAnalysisIgnoreGeneratedCode>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\FBXSDK\include;%(AdditionalIncludeDirectories);$(SolutionDir)\Framework</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9d.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\FBXSDK\include;$(SolutionDir)\Framework;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9d.lib;Dbghelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameworkTest.cpp" />
+    <ClCompile Include="KeyboardTest.cpp" />
+    <ClCompile Include="MouseTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.vcxproj">
+      <Project>{b42766f0-0cf0-4105-ba70-e1e53f2d0ca3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

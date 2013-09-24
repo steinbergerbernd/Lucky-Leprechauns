@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IBasicComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableGameComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigKeys.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicEffect.h">
+      <Filter>Graphics\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Graphics\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsHelpers.h">
+      <Filter>Graphics\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Graphics\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderToSurface.h">
+      <Filter>Graphics\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXVertex.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXMesh.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXModel.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXMaterial.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXInstance.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXEffect.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXBone.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXAnimation.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsBuffer.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTypes.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBlock.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDeclaration.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Graphics\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="STL.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCollection.h">
+      <Filter>Types\Threadsafe</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Types\Threadsafe</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Types\Threadsafe</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Types\Threadsafe</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Types\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledGraphicsComponent.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDevice.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiComponent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiRenderer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSystem.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacket.h">
+      <Filter>Network\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledNetworkComponent.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkComponent.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDevice.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXModelLoader.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXRenderer.h">
+      <Filter>Graphics\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingFrustum.h">
+      <Filter>Types\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Types\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainmentType.h">
+      <Filter>Types\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstControlledComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundComponent.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IBasicComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableGameComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions.cpp">
+      <Filter>Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigKeys.cpp">
+      <Filter>Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEffect.cpp">
+      <Filter>Graphics\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Graphics\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Graphics\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderToSurface.cpp">
+      <Filter>Graphics\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXVertex.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXModel.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXEffect.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXInstance.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBlock.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp">
+      <Filter>Graphics\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Types\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDevice.cpp">
+      <Filter>Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSystem.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiComponent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiRenderer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkComponent.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkDevice.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXModelLoader.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXRenderer.cpp">
+      <Filter>Graphics\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingFrustum.cpp">
+      <Filter>Types\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Types\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d81e181f-7886-426b-bfaa-7b1e5c3efa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{2bf62d44-0eaa-4597-b984-9abbfe243728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{117c10f6-1d7e-4b24-b0b2-de9795d58898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9f4caf85-a3ec-4391-957c-d653efc96572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{a82b33ba-be21-48d6-be95-49c9153ef524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constants">
+      <UniqueIdentifier>{afefa2cf-0abd-46ac-9ea6-c09dbe5c71b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{ae6f190c-1cae-4c13-bb88-0233a07b8019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Types">
+      <UniqueIdentifier>{40d5905a-e090-4e62-b1b2-5bdceba1168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Helpers">
+      <UniqueIdentifier>{d73d100d-0fba-48a6-8800-0a66e2175512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{944e18ee-6661-4e5c-b9cd-2ef3f3aff80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{dba718b8-8017-42c0-9eb3-854dcb04eab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{3cdfc8da-d98d-423a-a4f0-eae02e06c15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f44e1297-64aa-4702-9b29-d805f7af5afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects">
+      <UniqueIdentifier>{85fb36f2-d7d2-4623-9f4c-23248c4d229e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Config">
+      <UniqueIdentifier>{a764a8ab-a35f-4351-94ff-67608b354204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{f31ad936-4699-4741-864a-3645b015f3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\FBX">
+      <UniqueIdentifier>{c5481557-fe40-40bd-ace5-b1156111ccb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects\FBX">
+      <UniqueIdentifier>{fa37379e-14d8-4ec8-bcc8-f2e69eac2931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{15250560-2e71-483d-91b9-30032198fbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{33810164-7703-4301-915a-64d4daa4be0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{ecec0c2c-e1f0-4102-b2fc-e44ec6c1e901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{ad76e2ba-acc1-4f96-92e5-cb1df5b1c33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Threadsafe">
+      <UniqueIdentifier>{4d0a5bf4-71bf-4ed6-82c1-23ca0c9e150d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\FBX">
+      <UniqueIdentifier>{9b24735e-a31a-4af0-8671-0adce35d5c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Core">
+      <UniqueIdentifier>{9c1e3a53-4592-4a53-ae5b-f52fbaebc9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Core">
+      <UniqueIdentifier>{e32cc6bc-961d-4c3c-96d4-df45fd1c8261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Types">
+      <UniqueIdentifier>{e9b32948-e073-4c27-9a69-859ce4b504a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Core">
+      <UniqueIdentifier>{c3911d81-a7c9-4664-83d6-fd254fd00c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types\Collision">
+      <UniqueIdentifier>{ab62d547-04b2-4958-a89a-9bfca6a77c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{1e2b3fe9-6c86-4ee4-8037-ce51967a61ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Textures\FBX\Default.png">
+      <Filter>Content\Textures\FBX</Filter>
+    </None>
+    <None Include="Content\Effects\FBX\FBX.fx">
+      <Filter>Content\Effects\FBX</Filter>
+    </None>
+    <None Include="Content\Config\Config.txt">
+      <Filter>Content\Config</Filter>
+    </None>
+    <None Include="DLL\RocketCore.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\d3dx9_43.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\d3dx10_43.dll">
+      <Filter>DLL</Filter>
+    </None>
+    <None Include="DLL\msvcr90.dll">
+      <Filter>DLL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

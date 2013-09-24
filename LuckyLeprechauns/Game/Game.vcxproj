@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationKeys.cpp" />
+    <ClCompile Include="BubbleView.cpp" />
+    <ClCompile Include="CaneController.cpp" />
+    <ClCompile Include="CaneNetwork.cpp" />
+    <ClCompile Include="CanePhysics.cpp" />
+    <ClCompile Include="CaneSound.cpp" />
+    <ClCompile Include="CaneView.cpp" />
+    <ClCompile Include="EyeView.cpp" />
+    <ClCompile Include="GoldpotController.cpp" />
+    <ClCompile Include="GoldpotView.cpp" />
+    <ClCompile Include="HatController.cpp" />
+    <ClCompile Include="HatNetwork.cpp" />
+    <ClCompile Include="HatPhysics.cpp" />
+    <ClCompile Include="HatSound.cpp" />
+    <ClCompile Include="HatView.cpp" />
+    <ClCompile Include="HudGuiComponent.cpp" />
+    <ClCompile Include="ItemController.cpp" />
+    <ClCompile Include="ItemNetwork.cpp" />
+    <ClCompile Include="ItemView.cpp" />
+    <ClCompile Include="LeprechaunSound.cpp" />
+    <ClCompile Include="LLGameLogic.cpp" />
+    <ClCompile Include="LLGameSound.cpp" />
+    <ClCompile Include="LLSoundManager.cpp" />
+    <ClCompile Include="MushroomController.cpp" />
+    <ClCompile Include="MushroomNetwork.cpp" />
+    <ClCompile Include="MushroomSound.cpp" />
+    <ClCompile Include="MushroomView.cpp" />
+    <ClCompile Include="LeprechaunNetwork.cpp" />
+    <ClCompile Include="LeprechaunPhysics.cpp" />
+    <ClCompile Include="LLExceptions.cpp" />
+    <ClCompile Include="LLGuiManager.cpp" />
+    <ClCompile Include="LLNetworkComponent.cpp" />
+    <ClCompile Include="LLNetworkManager.cpp" />
+    <ClCompile Include="LLPhysicsManager.cpp" />
+    <ClCompile Include="LLConfigKeys.cpp" />
+    <ClCompile Include="LeprechaunCamera.cpp" />
+    <ClCompile Include="LeprechaunController.cpp" />
+    <ClCompile Include="LeprechaunView.cpp" />
+    <ClCompile Include="LLDrawableGameComponent.cpp" />
+    <ClCompile Include="LLGameComponent.cpp" />
+    <ClCompile Include="LLGraphicsComponent.cpp" />
+    <ClCompile Include="LLGraphicsManager.cpp" />
+    <ClCompile Include="LuckyLeprechauns.cpp" />
+    <ClCompile Include="PigController.cpp" />
+    <ClCompile Include="PigNetwork.cpp" />
+    <ClCompile Include="PigSound.cpp" />
+    <ClCompile Include="PigView.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="PlayerNetwork.cpp" />
+    <ClCompile Include="PlayerView.cpp" />
+    <ClCompile Include="RainbowController.cpp" />
+    <ClCompile Include="RainbowView.cpp" />
+    <ClCompile Include="SkyboxView.cpp" />
+    <ClCompile Include="StoneController.cpp" />
+    <ClCompile Include="StoneNetwork.cpp" />
+    <ClCompile Include="StoneView.cpp" />
+    <ClCompile Include="TerrainBlock.cpp" />
+    <ClCompile Include="TerrainController.cpp" />
+    <ClCompile Include="TerrainEffect.cpp" />
+    <ClCompile Include="TerrainGeometry.cpp" />
+    <ClCompile Include="TerrainTessellator.cpp" />
+    <ClCompile Include="TerrainView.cpp" />
+    <ClCompile Include="WaterView.cpp" />
+    <ClCompile Include="TerrainWaterEffect.cpp" />
+    <ClCompile Include="TrapController.cpp" />
+    <ClCompile Include="TrapManager.cpp" />
+    <ClCompile Include="TrapNetwork.cpp" />
+    <ClCompile Include="TrapView.cpp" />
+    <ClCompile Include="VegetationView.cpp" />
+    <ClCompile Include="VegetationController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationKeys.h" />
+    <ClInclude Include="BubbleView.h" />
+    <ClInclude Include="CaneController.h" />
+    <ClInclude Include="CaneNetwork.h" />
+    <ClInclude Include="CanePhysics.h" />
+    <ClInclude Include="CaneSound.h" />
+    <ClInclude Include="CaneView.h" />
+    <ClInclude Include="DrawableNetwork.h" />
+    <ClInclude Include="EyeView.h" />
+    <ClInclude Include="GoldpotController.h" />
+    <ClInclude Include="GoldpotView.h" />
+    <ClInclude Include="HatController.h" />
+    <ClInclude Include="HatNetwork.h" />
+    <ClInclude Include="HatPhysics.h" />
+    <ClInclude Include="HatSound.h" />
+    <ClInclude Include="HatView.h" />
+    <ClInclude Include="HudGuiComponent.h" />
+    <ClInclude Include="ItemController.h" />
+    <ClInclude Include="ItemType.h" />
+    <ClInclude Include="ItemNetwork.h" />
+    <ClInclude Include="ItemView.h" />
+    <ClInclude Include="LeprechaunAttack.h" />
+    <ClInclude Include="LeprechaunFlag.h" />
+    <ClInclude Include="LeprechaunSound.h" />
+    <ClInclude Include="LLGameLogic.h" />
+    <ClInclude Include="LLGameSound.h" />
+    <ClInclude Include="LLSoundManager.h" />
+    <ClInclude Include="MushroomController.h" />
+    <ClInclude Include="MushroomNetwork.h" />
+    <ClInclude Include="MushroomSound.h" />
+    <ClInclude Include="MushroomView.h" />
+    <ClInclude Include="NetworkConstants.h" />
+    <ClInclude Include="NetworkPacketAddItem.h" />
+    <ClInclude Include="NetworkPacketAddPlayer.h" />
+    <ClInclude Include="NetworkPacketAddTrap.h" />
+    <ClInclude Include="NetworkPacketCane.h" />
+    <ClInclude Include="NetworkPacketCollectItem.h" />
+    <ClInclude Include="NetworkPacketDrawable.h" />
+    <ClInclude Include="NetworkPacketHat.h" />
+    <ClInclude Include="NetworkPacketId.h" />
+    <ClInclude Include="NetworkPacketMushroom.h" />
+    <ClInclude Include="NetworkPacketPig.h" />
+    <ClInclude Include="NetworkPacketLeprechaun.h" />
+    <ClInclude Include="NetworkPacketRemoveItem.h" />
+    <ClInclude Include="NetworkPacketRemovePlayer.h" />
+    <ClInclude Include="NetworkPacketRemoveTrap.h" />
+    <ClInclude Include="NetworkPacketStone.h" />
+    <ClInclude Include="NetworkPacketWelcome.h" />
+    <ClInclude Include="NetworkTypes.h" />
+    <ClInclude Include="LeprechaunNetwork.h" />
+    <ClInclude Include="LeprechaunPhysics.h" />
+    <ClInclude Include="LLControlledNetworkComponent.h" />
+    <ClInclude Include="LLExceptions.h" />
+    <ClInclude Include="LLGuiManager.h" />
+    <ClInclude Include="LLNetworkComponent.h" />
+    <ClInclude Include="LLNetworkManager.h" />
+    <ClInclude Include="LLPhysicsManager.h" />
+    <ClInclude Include="LLConfigKeys.h" />
+    <ClInclude Include="LLConstants.h" />
+    <ClInclude Include="Controllers.h" />
+    <ClInclude Include="LeprechaunCamera.h" />
+    <ClInclude Include="LeprechaunController.h" />
+    <ClInclude Include="LeprechaunView.h" />
+    <ClInclude Include="LLControlledGraphicsComponent.h" />
+    <ClInclude Include="LLDrawableGameComponent.h" />
+    <ClInclude Include="LLGameComponent.h" />
+    <ClInclude Include="LLGraphicsComponent.h" />
+    <ClInclude Include="LLGraphicsManager.h" />
+    <ClInclude Include="LuckyLeprechauns.h" />
+    <ClInclude Include="NetworkPacketTypes.h" />
+    <ClInclude Include="PigController.h" />
+    <ClInclude Include="PigNetwork.h" />
+    <ClInclude Include="PigSound.h" />
+    <ClInclude Include="PigView.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="PlayerNetwork.h" />
+    <ClInclude Include="PlayerView.h" />
+    <ClInclude Include="RainbowController.h" />
+    <ClInclude Include="RainbowView.h" />
+    <ClInclude Include="SkyboxView.h" />
+    <ClInclude Include="StoneController.h" />
+    <ClInclude Include="StoneNetwork.h" />
+    <ClInclude Include="StoneView.h" />
+    <ClInclude Include="TerrainBlock.h" />
+    <ClInclude Include="TerrainController.h" />
+    <ClInclude Include="TerrainEffect.h" />
+    <ClInclude Include="TerrainGeometry.h" />
+    <ClInclude Include="TerrainInstance.h" />
+    <ClInclude Include="TerrainTessellator.h" />
+    <ClInclude Include="TerrainPoint.h" />
+    <ClInclude Include="TerrainView.h" />
+    <ClInclude Include="WaterView.h" />
+    <ClInclude Include="TerrainWaterEffect.h" />
+    <ClInclude Include="TimerType.h" />
+    <ClInclude Include="TrapController.h" />
+    <ClInclude Include="TrapManager.h" />
+    <ClInclude Include="TrapNetwork.h" />
+    <ClInclude Include="TrapView.h" />
+    <ClInclude Include="VegetationView.h" />
+    <ClInclude Include="VegetationController.h" />
+    <ClInclude Include="Views.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Config\Gui.xml" />
+    <None Include="Content\Config\Models.xml" />
+    <None Include="Content\Config\LLConfig.txt" />
+    <None Include="Content\Config\Vegetation.xml" />
+    <None Include="Content\Effects\Rainbow\Rainbow.fx" />
+    <None Include="Content\Effects\Terrain\Terrain.fx" />
+    <None Include="Content\Effects\Terrain\TerrainWater.fx" />
+    <None Include="Content\GUI\fonts\Delicious-Bold.otf" />
+    <None Include="Content\GUI\fonts\Delicious-BoldItalic.otf" />
+    <None Include="Content\GUI\fonts\Delicious-Italic.otf" />
+    <None Include="Content\GUI\fonts\Delicious-Roman.otf" />
+    <None Include="Content\GUI\general.rcss" />
+    <None Include="Content\GUI\hud.rml" />
+    <None Include="Content\GUI\images\attacks\cane.tga" />
+    <None Include="Content\GUI\images\attacks\hat.tga" />
+    <None Include="Content\GUI\images\attacks\kick.tga" />
+    <None Include="Content\GUI\images\gray.tga" />
+    <None Include="Content\GUI\images\info\mushroom.tga" />
+    <None Include="Content\GUI\images\info\pergament.tga" />
+    <None Include="Content\GUI\images\info\rainbow.tga" />
+    <None Include="Content\GUI\images\items\attack_double.tga" />
+    <None Include="Content\GUI\images\items\explosion_trap.tga" />
+    <None Include="Content\GUI\images\items\invisibility.tga" />
+    <None Include="Content\GUI\images\items\invulnerability.tga" />
+    <None Include="Content\GUI\images\items\none.tga" />
+    <None Include="Content\GUI\images\items\pig_robbery.tga" />
+    <None Include="Content\GUI\images\items\show_invisibility.tga" />
+    <None Include="Content\GUI\images\items\speed_boost.tga" />
+    <None Include="Content\GUI\images\minimap\map_ortho.tga" />
+    <None Include="Content\GUI\images\minimap\mm_goldpot.tga" />
+    <None Include="Content\GUI\images\minimap\mm_leprechaun0.tga" />
+    <None Include="Content\GUI\images\minimap\mm_leprechaun3.tga" />
+    <None Include="Content\GUI\images\minimap\mm_leprechaun2.tga" />
+    <None Include="Content\GUI\images\minimap\mm_leprechaun1.tga" />
+    <None Include="Content\GUI\images\minimap\mm_mushroom_neutral.tga" />
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player0.tga" />
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player1.tga" />
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player2.tga" />
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player3.tga" />
+    <None Include="Content\GUI\images\minimap\mm_pig.tga" />
+    <None Include="Content\GUI\images\minimap\mm_rainbow.tga" />
+    <None Include="Content\GUI\info.rcss" />
+    <None Include="Content\GUI\inventory.rcss" />
+    <None Include="Content\GUI\minimap.rcss" />
+    <None Include="Content\Models\Goldpot\goldpot.fbx" />
+    <None Include="Content\Models\Items\explosionTrap.fbx" />
+    <None Include="Content\Models\Items\Item.fbx" />
+    <None Include="Content\Models\Leprechaun\Bubble.fbx" />
+    <None Include="Content\Models\Leprechaun\Cane.fbx" />
+    <None Include="Content\Models\Leprechaun\Eye.fbx" />
+    <None Include="Content\Models\Leprechaun\Hat.fbx" />
+    <None Include="Content\Models\Leprechaun\Leprechaun.fbx" />
+    <None Include="Content\Models\Mushroom\Mushroom.fbx" />
+    <None Include="Content\Models\Mushroom\Stone.fbx" />
+    <None Include="Content\Models\Pig\Pig.fbx" />
+    <None Include="Content\Models\Rainbow\Rainbow.fbx" />
+    <None Include="Content\Models\Skybox\Skybox.fbx" />
+    <None Include="Content\Models\Vegetation\Bush.fbx" />
+    <None Include="Content\Models\Vegetation\Rock.fbx" />
+    <None Include="Content\Models\Vegetation\Tree.fbx" />
+    <None Include="Content\Sounds\LuckyLeprechauns.xap" />
+    <None Include="Content\Sounds\Win\Cane.xsb" />
+    <None Include="Content\Sounds\Win\GameSound.xsb" />
+    <None Include="Content\Sounds\Win\Hat.xsb" />
+    <None Include="Content\Sounds\Win\Leprechaun.xsb" />
+    <None Include="Content\Sounds\Win\LuckyLeprechauns.xgs" />
+    <None Include="Content\Sounds\Win\LuckyLeprechauns.xwb" />
+    <None Include="Content\Sounds\Win\Mushroom.xsb" />
+    <None Include="Content\Sounds\Win\Pig.xsb" />
+    <None Include="Content\Textures\Mushroom\Mushroom0.jpg" />
+    <None Include="Content\Textures\Mushroom\Mushroom1.jpg" />
+    <None Include="Content\Textures\Mushroom\Mushroom2.jpg" />
+    <None Include="Content\Textures\Mushroom\Mushroom3.jpg" />
+    <None Include="Content\Textures\Terrain\Grass.png" />
+    <None Include="Content\Textures\Terrain\Heightmap.png" />
+    <None Include="Content\Textures\Terrain\Lightmap.png" />
+    <None Include="Content\Textures\Terrain\Normalmap.png" />
+    <None Include="Content\Textures\Terrain\Rock.png" />
+    <None Include="Content\Textures\Terrain\Sand.png" />
+    <None Include="Content\Textures\Terrain\Stone.png" />
+    <None Include="Content\Textures\Terrain\Wavemap.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F713FA34-05E1-4BAB-9B2D-590E4A9BF763}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\libRocket\Include;$(SolutionDir)\Framework\FBXSDK\include;%(AdditionalIncludeDirectories);$(SolutionDir)\Framework</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Content" "$(TargetDir)Content" /e /y /i /r</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\libRocket\Include;$(SolutionDir)\Framework\FBXSDK\include;$(SolutionDir)\Framework;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Content" "$(TargetDir)Content" /e /y /i /r</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

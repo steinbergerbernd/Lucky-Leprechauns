@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vegetation>
+	<Object id="Tree" boundingCylinderRadius="3.0" boundingCylinderHeight="10.0">
+		<Transform translateX="-80.0" translateZ="20.0" scale="0.9" />
+		<Transform translateX="-20.0" translateZ="150.0" scale="0.8" />
+		<Transform translateX="-160.0" translateZ="160.0" scale="1.0" />
+		<Transform translateX="0.0" translateZ="-130.0" scale="0.7" />
+		<Transform translateX="140.0" translateZ="-120.0" scale="0.8" />
+		<Transform translateX="160.0" translateZ="160.0" scale="0.9" />
+		<Transform translateX="270.0" translateZ="70.0" scale="0.8" />
+		<Transform translateX="60.0" translateZ="-30.0" scale="1.0" />
+		<Transform translateX="-140.0" translateZ="-30.0" scale="0.7" />
+		<Transform translateX="-80.0" translateZ="-150.0" scale="0.8" />
+	</Object>
+	<Object id="Rock" boundingCylinderRadius="2.2" boundingCylinderHeight="3.5">
+		<Transform translateX="0.0" translateZ="80.0" scale="2.3" />
+		<Transform translateX="200.0" translateZ="-100.0" scale="2.5" />
+		<Transform translateX="-80.0" translateZ="-80.0" scale="2.6" />
+		<Transform translateX="60.0" translateZ="-100.0" scale="2.5" />
+		<Transform translateX="80.0" translateZ="20.0" scale="2.6" />
+		<Transform translateX="-80.0" translateZ="200.0" scale="2.4" />
+		<Transform translateX="50.0" translateZ="200.0" scale="2.3" />
+		<Transform translateX="200.0" translateZ="100.0" scale="2.5" />
+		<Transform translateX="-160.0" translateZ="60.0" scale="2.4" />
+		<Transform translateX="270.0" translateZ="-20.0" scale="2.3" />
+	</Object>
+</Vegetation>

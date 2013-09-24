@@ -1,0 +1,1465 @@
+Signature = XACT3;
+Version = 18;
+Content Version = 46;
+Release = February 2010;
+
+Options
+{
+    Verbose Report = 0;
+    Generate C/C++ Headers = 1;
+}
+
+Global Settings
+{
+    Xbox File = Xbox\LuckyLeprechauns.xgs;
+    Windows File = Win\LuckyLeprechauns.xgs;
+    Header File = C:\Eigene Dateien\Lucky Leprechauns\LuckyLeprechauns\Game\Content\Sounds\LuckyLeprechauns.h;
+    Exclude Category Names = 0;
+    Exclude Variable Names = 0;
+    Last Modified Low = 1402899813;
+    Last Modified High = 30201319;
+
+    Category
+    {
+        Name = Global;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Default;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Music;
+        Public = 1;
+        Background Music = 1;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Variable
+    {
+        Name = OrientationAngle;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = -180.000000;
+        Max = 180.000000;
+    }
+
+    Variable
+    {
+        Name = DopplerPitchScalar;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 1.000000;
+        Initial Value = 1.000000;
+        Min = 0.000000;
+        Max = 4.000000;
+    }
+
+    Variable
+    {
+        Name = SpeedOfSound;
+        Public = 1;
+        Global = 1;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 343.500000;
+        Initial Value = 343.500000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+
+    Variable
+    {
+        Name = ReleaseTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = AttackTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = NumCueInstances;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1024.000000;
+    }
+
+    Variable
+    {
+        Name = Distance;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+}
+
+Wave Bank
+{
+    Name = LuckyLeprechauns;
+    Xbox File = Xbox\LuckyLeprechauns.xwb;
+    Windows File = Win\LuckyLeprechauns.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = <none>;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 1022987652;
+    PC Bank Last Modified High = 30201362;
+    Bank Last Revised Low = 705809511;
+    Bank Last Revised High = 30201362;
+
+    Wave
+    {
+        Name = hey;
+        File = hey.wav;
+        Build Settings Last Modified Low = 1097394716;
+        Build Settings Last Modified High = 30200809;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88292;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3079137834;
+            Last Modified High = 30200383;
+        }
+    }
+
+    Wave
+    {
+        Name = Cry of the celts;
+        File = Cry of the celts.wav;
+        Build Settings Last Modified Low = 489935997;
+        Build Settings Last Modified High = 30200992;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 28878836;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3754377626;
+            Last Modified High = 30200989;
+        }
+    }
+
+    Wave
+    {
+        Name = cane throw;
+        File = cane throw.wav;
+        Build Settings Last Modified Low = 1449644231;
+        Build Settings Last Modified High = 30201188;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 102968;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3552337774;
+            Last Modified High = 30201186;
+        }
+    }
+
+    Wave
+    {
+        Name = boom;
+        File = boom.wav;
+        Build Settings Last Modified Low = 1510734449;
+        Build Settings Last Modified High = 30201190;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 247286;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 692672661;
+            Last Modified High = 30077695;
+        }
+    }
+
+    Wave
+    {
+        Name = yes hahaha;
+        File = yes hahaha.wav;
+        Build Settings Last Modified Low = 2284827928;
+        Build Settings Last Modified High = 30201296;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 417900;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 631206182;
+            Last Modified High = 30200384;
+        }
+    }
+
+    Wave
+    {
+        Name = flop;
+        File = flop.wav;
+        Build Settings Last Modified Low = 1119813621;
+        Build Settings Last Modified High = 30201319;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 2255;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1203139902;
+            Last Modified High = 30152037;
+        }
+    }
+
+    Wave
+    {
+        Name = pig mix;
+        File = pig mix.wav;
+        Build Settings Last Modified Low = 2470086111;
+        Build Settings Last Modified High = 30201328;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1070580;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2122029642;
+            Last Modified High = 30200379;
+        }
+    }
+
+    Wave
+    {
+        Name = pig squeak 2;
+        File = pig squeak 2.wav;
+        Build Settings Last Modified Low = 2470086111;
+        Build Settings Last Modified High = 30201328;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 42630;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2573587500;
+            Last Modified High = 30150277;
+        }
+    }
+
+    Wave
+    {
+        Name = pig squeak;
+        File = pig squeak.wav;
+        Build Settings Last Modified Low = 2470086111;
+        Build Settings Last Modified High = 30201328;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 22050;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 17940;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2925481854;
+            Last Modified High = 30200988;
+        }
+    }
+
+    Wave
+    {
+        Name = yummy;
+        File = yummy.wav;
+        Build Settings Last Modified Low = 945243981;
+        Build Settings Last Modified High = 30201331;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 243444;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 956814806;
+            Last Modified High = 30200384;
+        }
+    }
+
+    Wave
+    {
+        Name = explosion;
+        File = explosion.wav;
+        Build Settings Last Modified Low = 1504133017;
+        Build Settings Last Modified High = 30201345;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 23540;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2123589376;
+            Last Modified High = 29579519;
+        }
+    }
+
+    Wave
+    {
+        Name = punch;
+        File = punch.wav;
+        Build Settings Last Modified Low = 3735270631;
+        Build Settings Last Modified High = 30201345;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 8204;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3515138040;
+            Last Modified High = 30201345;
+        }
+    }
+
+    Wave
+    {
+        Name = door slamming;
+        File = door slamming.wav;
+        Build Settings Last Modified Low = 3223441701;
+        Build Settings Last Modified High = 30201357;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 11025;
+            Bits Per Sample = 0;
+            Play Region Offset = 44;
+            Play Region Length = 5736;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3761534116;
+            Last Modified High = 30201356;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Leprechaun;
+    Xbox File = Xbox\Leprechaun.xsb;
+    Windows File = Win\Leprechaun.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = hey;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = hey;
+                    Entry Index = 0;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = yes hahaha;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = yes hahaha;
+                    Entry Index = 4;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = punch;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = punch;
+                    Entry Index = 11;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = door slamming;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = door slamming;
+                    Entry Index = 12;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = hey;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = hey;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = yes hahaha;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = yes hahaha;
+            Index = 1;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = punch;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = punch;
+            Index = 2;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = door slamming;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = door slamming;
+            Index = 3;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Pig;
+    Xbox File = Xbox\Pig.xsb;
+    Windows File = Win\Pig.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Bank Last Modified Low = 1057167107;
+    Bank Last Modified High = 30201333;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = pig squeak 2;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = pig squeak 2;
+                    Entry Index = 7;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = pig mix;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Loop Count = 255;
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = pig mix;
+                    Entry Index = 6;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = pig squeak;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = pig squeak;
+                    Entry Index = 8;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = pig mix;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = pig mix;
+            Index = 1;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = pig squeak;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = pig squeak;
+            Index = 2;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Sound Entry
+        {
+            Name = pig squeak 2;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Mushroom;
+    Xbox File = Xbox\Mushroom.xsb;
+    Windows File = Win\Mushroom.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = yummy;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = yummy;
+                    Entry Index = 9;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = yummy;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = yummy;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = GameSound;
+    Xbox File = Xbox\GameSound.xsb;
+    Windows File = Win\GameSound.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = Cry of the celts;
+        Volume = -2000;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Music;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Loop Count = 255;
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = Cry of the celts;
+                    Entry Index = 1;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = boom;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = boom;
+                    Entry Index = 3;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = explosion;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = explosion;
+                    Entry Index = 10;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = Cry of the celts;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = Cry of the celts;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = boom;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = boom;
+            Index = 1;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = explosion;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = explosion;
+            Index = 2;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Cane;
+    Xbox File = Xbox\Cane.xsb;
+    Windows File = Win\Cane.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Bank Last Modified Low = 1407930101;
+    Bank Last Modified High = 30201319;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = cane throw;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Loop Count = 255;
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = cane throw;
+                    Entry Index = 2;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = cane throw;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = cane throw;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Hat;
+    Xbox File = Xbox\Hat.xsb;
+    Windows File = Win\Hat.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = flop;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = LuckyLeprechauns;
+                    Bank Index = 0;
+                    Entry Name = flop;
+                    Entry Index = 5;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = flop;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = flop;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}

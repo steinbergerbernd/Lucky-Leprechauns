@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LeprechaunPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="LLPhysicsManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="HudGuiComponent.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGuiManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HatPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="LeprechaunView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="VegetationView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="HatController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="VegetationController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="LeprechaunController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="LLDrawableGameComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGameComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LuckyLeprechauns.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGraphicsComponent.cpp">
+      <Filter>Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGraphicsManager.cpp">
+      <Filter>Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LLNetworkComponent.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LLNetworkManager.cpp">
+      <Filter>Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainWaterEffect.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainBlock.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainEffect.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGeometry.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTessellator.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="LeprechaunCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LeprechaunNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="CaneController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CanePhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="HatNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="CaneNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="LLExceptions.cpp">
+      <Filter>Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationKeys.cpp">
+      <Filter>Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="LLConfigKeys.cpp">
+      <Filter>Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="CaneView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="HatView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PigController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PigView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PigNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGameLogic.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapManager.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="RainbowController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RainbowView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNetwork.cpp">
+      <Filter>Network\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="LeprechaunSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LLSoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="EyeView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CaneSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LLGameSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="HatSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="PigSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldpotController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldpotView.cpp">
+      <Filter>Graphics\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeprechaunPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="LLPhysicsManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="HudGuiComponent.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGuiManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketAddPlayer.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketWelcome.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="HatPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="VegetationView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="VegetationController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="HatController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="LLDrawableGameComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGameComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LuckyLeprechauns.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLControlledGraphicsComponent.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGraphicsComponent.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGraphicsManager.h">
+      <Filter>Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkTypes.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLControlledNetworkComponent.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLNetworkComponent.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LLNetworkManager.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkConstants.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketTypes.h">
+      <Filter>Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainBlock.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainEffect.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGeometry.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainInstance.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainPoint.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTessellator.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainWaterEffect.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="CaneController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CanePhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="HatNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="CaneNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationKeys.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="LLExceptions.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="LLConfigKeys.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="LLConstants.h">
+      <Filter>Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunAttack.h">
+      <Filter>Leprechaun</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunFlag.h">
+      <Filter>Leprechaun</Filter>
+    </ClInclude>
+    <ClInclude Include="CaneView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="HatView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketRemovePlayer.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PigController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="PigView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PigNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketPig.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketRemoveItem.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketAddItem.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketCollectItem.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketId.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketDrawable.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketLeprechaun.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketCane.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketHat.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketMushroom.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemType.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketStone.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerType.h">
+      <Filter>Leprechaun</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGameLogic.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapManager.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketRemoveTrap.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPacketAddTrap.h">
+      <Filter>Network\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="RainbowController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RainbowView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNetwork.h">
+      <Filter>Network\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="LLSoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="LeprechaunSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CaneSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="LLGameSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PigSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="HatSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldpotController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldpotView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterView.h">
+      <Filter>Graphics\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{efd5549d-e6eb-44c3-bd0c-f67a18be974c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{dabe3971-3880-4588-9066-b4f4e1a41895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects">
+      <UniqueIdentifier>{c8bed239-6a14-4320-ad1b-6e05af8b6cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{39987e29-5cd7-4356-886b-ff2bc2177e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models">
+      <UniqueIdentifier>{39f91b58-037b-4c66-a46e-99afd7d6b09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Terrain">
+      <UniqueIdentifier>{797a47a1-4a21-494a-8128-447712c8d55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Skybox">
+      <UniqueIdentifier>{dde515b7-76bb-43ec-875d-6ee9f11a1b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects\Terrain">
+      <UniqueIdentifier>{2bbb04d3-0199-4e28-a8bc-cf0cdda2fbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Leprechaun">
+      <UniqueIdentifier>{2b376cea-770b-4f3f-ad7c-da0c362256ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Config">
+      <UniqueIdentifier>{70d369d3-e0f7-4b55-9d02-9aab66670438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constants">
+      <UniqueIdentifier>{0c97d6c2-1e27-481b-979c-bb81eb3fe40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{11032e7e-b42e-4ae8-a5ff-3ee506cfabb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Vegetation">
+      <UniqueIdentifier>{6489c2e2-008f-49ac-a917-abf7fad00488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI">
+      <UniqueIdentifier>{1080edb9-2c9c-4fc6-b6f8-275176ce2a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\images">
+      <UniqueIdentifier>{ff3e8192-1ca8-4f6b-8d0d-36ec4e8ba836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\fonts">
+      <UniqueIdentifier>{6e077202-d17b-4428-a92f-7335cce0800b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{b622d38c-1584-4160-b3b6-8bb2abe5667f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{5b59ec79-7681-46ee-81db-5538c4065186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{2fb343d5-595c-4d05-8930-036b06d38106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{5f996c3a-b8b0-4d7f-ab08-a28ead3679c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{88c35ee1-bc5e-463a-9689-24f3ee3e0591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{31d86b98-79c0-4756-b444-b949d52a0a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Views">
+      <UniqueIdentifier>{867a5d0b-f452-44cf-8bd8-97b85a689a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packets">
+      <UniqueIdentifier>{c7a8dc6d-fbd7-4224-89bd-8cf00276ec40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Core">
+      <UniqueIdentifier>{49f21f1f-4e34-4bdb-a9d3-737567873806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Core">
+      <UniqueIdentifier>{55951828-fd20-45f2-8cae-ea3b8bde5d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Networks">
+      <UniqueIdentifier>{8a63657d-987b-4657-b5c2-90538230a733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Leprechaun">
+      <UniqueIdentifier>{50e2b0f5-5d3d-45ab-a52e-fced8ad39e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Pig">
+      <UniqueIdentifier>{c46182cd-9620-4deb-a0ae-3359e69fa787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Mushroom">
+      <UniqueIdentifier>{6975f70d-434b-43e2-ac7a-a46d82912f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Items">
+      <UniqueIdentifier>{05657a46-566c-4702-9924-925037331375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{1564b33b-937f-49ab-a147-5216e8e3117d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\images\attacks">
+      <UniqueIdentifier>{77b9553d-e90b-4de7-82c2-48131792387b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\images\info">
+      <UniqueIdentifier>{c0eb82a7-9a52-4639-9acd-0c87f740df8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\images\items">
+      <UniqueIdentifier>{8f03d8df-ca58-4510-98aa-33cc5d281274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\GUI\images\minimap">
+      <UniqueIdentifier>{395e2d89-d01e-413a-a3e8-7764e46c5cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Rainbow">
+      <UniqueIdentifier>{e24ce86f-a1f8-4b5f-80dc-e5df07a0ab19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects\Rainbow">
+      <UniqueIdentifier>{1e3d0f9c-af31-4fec-a030-46194ea31dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{58c41a9a-cdee-42ae-93a2-712e20d4ce5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Sounds">
+      <UniqueIdentifier>{481e3790-9ac3-423c-9383-ff08b0087c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Sounds\Win">
+      <UniqueIdentifier>{6b9b2de7-982f-417a-a6d5-de8e7cbc58b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Mushroom">
+      <UniqueIdentifier>{3adda863-4c4e-4c11-adaa-9d0f922eac22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models\Goldpot">
+      <UniqueIdentifier>{f7157195-6ccd-45b3-b0ff-143f9901e99e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Effects\Terrain\TerrainWater.fx">
+      <Filter>Content\Effects\Terrain</Filter>
+    </None>
+    <None Include="Content\Effects\Terrain\Terrain.fx">
+      <Filter>Content\Effects\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Wavemap.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Models\Leprechaun\Leprechaun.fbx">
+      <Filter>Content\Models\Leprechaun</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Grass.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Rock.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Sand.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Stone.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Heightmap.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Normalmap.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Models\Skybox\Skybox.fbx">
+      <Filter>Content\Models\Skybox</Filter>
+    </None>
+    <None Include="Content\Config\LLConfig.txt">
+      <Filter>Content\Config</Filter>
+    </None>
+    <None Include="Content\Models\Vegetation\Rock.fbx">
+      <Filter>Content\Models\Vegetation</Filter>
+    </None>
+    <None Include="Content\Models\Vegetation\Tree.fbx">
+      <Filter>Content\Models\Vegetation</Filter>
+    </None>
+    <None Include="Content\Models\Vegetation\Bush.fbx">
+      <Filter>Content\Models\Vegetation</Filter>
+    </None>
+    <None Include="Content\Config\Vegetation.xml">
+      <Filter>Content\Config</Filter>
+    </None>
+    <None Include="Content\Config\Models.xml">
+      <Filter>Content\Config</Filter>
+    </None>
+    <None Include="Content\GUI\fonts\Delicious-Bold.otf">
+      <Filter>Content\GUI\fonts</Filter>
+    </None>
+    <None Include="Content\GUI\fonts\Delicious-Roman.otf">
+      <Filter>Content\GUI\fonts</Filter>
+    </None>
+    <None Include="Content\GUI\fonts\Delicious-BoldItalic.otf">
+      <Filter>Content\GUI\fonts</Filter>
+    </None>
+    <None Include="Content\GUI\fonts\Delicious-Italic.otf">
+      <Filter>Content\GUI\fonts</Filter>
+    </None>
+    <None Include="Content\GUI\general.rcss">
+      <Filter>Content\GUI</Filter>
+    </None>
+    <None Include="Content\GUI\minimap.rcss">
+      <Filter>Content\GUI</Filter>
+    </None>
+    <None Include="Content\GUI\hud.rml">
+      <Filter>Content\GUI</Filter>
+    </None>
+    <None Include="Content\GUI\info.rcss">
+      <Filter>Content\GUI</Filter>
+    </None>
+    <None Include="Content\GUI\inventory.rcss">
+      <Filter>Content\GUI</Filter>
+    </None>
+    <None Include="Content\Config\Gui.xml">
+      <Filter>Content\Config</Filter>
+    </None>
+    <None Include="Content\Models\Leprechaun\Cane.fbx">
+      <Filter>Content\Models\Leprechaun</Filter>
+    </None>
+    <None Include="Content\Models\Leprechaun\Hat.fbx">
+      <Filter>Content\Models\Leprechaun</Filter>
+    </None>
+    <None Include="Content\Models\Pig\Pig.fbx">
+      <Filter>Content\Models\Pig</Filter>
+    </None>
+    <None Include="Content\Models\Mushroom\Mushroom.fbx">
+      <Filter>Content\Models\Mushroom</Filter>
+    </None>
+    <None Include="Content\Models\Mushroom\Stone.fbx">
+      <Filter>Content\Models\Mushroom</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\explosion_trap.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\none.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\attacks\hat.tga">
+      <Filter>Content\GUI\images\attacks</Filter>
+    </None>
+    <None Include="Content\GUI\images\attacks\kick.tga">
+      <Filter>Content\GUI\images\attacks</Filter>
+    </None>
+    <None Include="Content\GUI\images\info\mushroom.tga">
+      <Filter>Content\GUI\images\info</Filter>
+    </None>
+    <None Include="Content\GUI\images\info\pergament.tga">
+      <Filter>Content\GUI\images\info</Filter>
+    </None>
+    <None Include="Content\GUI\images\info\rainbow.tga">
+      <Filter>Content\GUI\images\info</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\map_ortho.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_goldpot.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_pig.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_rainbow.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\Models\Items\explosionTrap.fbx">
+      <Filter>Content\Models\Items</Filter>
+    </None>
+    <None Include="Content\Models\Items\Item.fbx">
+      <Filter>Content\Models\Items</Filter>
+    </None>
+    <None Include="Content\Models\Rainbow\Rainbow.fbx">
+      <Filter>Content\Models\Rainbow</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\attack_double.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\invisibility.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\invulnerability.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\pig_robbery.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\show_invisibility.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\GUI\images\items\speed_boost.tga">
+      <Filter>Content\GUI\images\items</Filter>
+    </None>
+    <None Include="Content\Effects\Rainbow\Rainbow.fx">
+      <Filter>Content\Effects\Rainbow</Filter>
+    </None>
+    <None Include="Content\GUI\images\attacks\cane.tga">
+      <Filter>Content\GUI\images\attacks</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_leprechaun1.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_leprechaun2.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_leprechaun3.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\Models\Leprechaun\Bubble.fbx">
+      <Filter>Content\Models\Leprechaun</Filter>
+    </None>
+    <None Include="Content\Models\Leprechaun\Eye.fbx">
+      <Filter>Content\Models\Leprechaun</Filter>
+    </None>
+    <None Include="Content\Sounds\LuckyLeprechauns.xap">
+      <Filter>Content\Sounds</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\Leprechaun.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\Pig.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\LuckyLeprechauns.xgs">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\LuckyLeprechauns.xwb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\Mushroom.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\GameSound.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\Cane.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Sounds\Win\Hat.xsb">
+      <Filter>Content\Sounds\Win</Filter>
+    </None>
+    <None Include="Content\Textures\Mushroom\Mushroom0.jpg">
+      <Filter>Content\Textures\Mushroom</Filter>
+    </None>
+    <None Include="Content\Textures\Mushroom\Mushroom3.jpg">
+      <Filter>Content\Textures\Mushroom</Filter>
+    </None>
+    <None Include="Content\Textures\Mushroom\Mushroom1.jpg">
+      <Filter>Content\Textures\Mushroom</Filter>
+    </None>
+    <None Include="Content\Textures\Mushroom\Mushroom2.jpg">
+      <Filter>Content\Textures\Mushroom</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_leprechaun0.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player2.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_mushroom_neutral.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player0.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player1.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\GUI\images\minimap\mm_mushroom_player3.tga">
+      <Filter>Content\GUI\images\minimap</Filter>
+    </None>
+    <None Include="Content\Models\Goldpot\goldpot.fbx">
+      <Filter>Content\Models\Goldpot</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Lightmap.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\GUI\images\gray.tga">
+      <Filter>Content\GUI\images</Filter>
+    </None>
+  </ItemGroup>
+</Project>

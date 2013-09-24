@@ -1,0 +1,85 @@
+<rml>
+	<head>
+		<link type="text/css" href="general.rcss" />
+		<link type="text/css" href="info.rcss" />
+		<link type="text/css" href="inventory.rcss" />
+		<link type="text/css" href="minimap.rcss" />
+
+		<title>HUD</title>
+	</head>
+	<body id="body">
+		<div id="gameWon" class="gameText"></div>
+		
+		<div id="info">
+			
+			<div id="player0" class="player_content">
+				<img id="rainbow_img0" src="./images/info/rainbow.tga"></img>
+				<div id="rainbow_progress0" class="rainbow_progress">0%</div><br/>
+				<img id="mushroom_img0" src="./images/info/mushroom.tga"></img>
+				<div id="mushroom_count0" class="mushroom_count">0</div>
+			</div>
+			
+			<div id="player1" class="player_content">
+				<img id="rainbow_img1" src="./images/info/rainbow.tga"></img>
+				<div id="rainbow_progress1" class="rainbow_progress">0%</div><br/>
+				<img id="mushrom_img1" src="./images/info/mushroom.tga"></img>
+				<div id="mushroom_count1" class="mushroom_count">0</div>
+			</div>
+
+			<div id="player2" class="player_content">
+				<img id="rainbow_img2" src="./images/info/rainbow.tga"></img>
+				<div id="rainbow_progress2" class="rainbow_progress">0%</div><br/>
+				<img id="mushrom_img2" src="./images/info/mushroom.tga"></img>
+				<div id="mushroom_count2" class="mushroom_count">0</div>
+			</div>
+
+			<div id="player3" class="player_content">
+				<img id="rainbow_img3" src="./images/info/rainbow.tga"></img>
+				<div id="rainbow_progress3" class="rainbow_progress">0%</div><br/>
+				<img id="mushrom_img3" src="./images/info/mushroom.tga"></img>
+				<div id="mushroom_count3" class="mushroom_count">0</div>
+			</div>
+		</div>
+
+
+		<div id="minimap">
+			<img id="mm_mushroom_neutral_0" src="./images/minimap/mm_mushroom_neutral.tga"></img>
+			<img id="mm_mushroom_neutral_1" src="./images/minimap/mm_mushroom_neutral.tga"></img>
+			<img id="mm_mushroom_neutral_2" src="./images/minimap/mm_mushroom_neutral.tga"></img>
+			<img id="mm_mushroom_neutral_3" src="./images/minimap/mm_mushroom_neutral.tga"></img>
+			<img id="mm_mushroom_player0_0" src="./images/minimap/mm_mushroom_player0.tga"></img>
+			<img id="mm_mushroom_player0_1" src="./images/minimap/mm_mushroom_player0.tga"></img>
+			<img id="mm_mushroom_player0_2" src="./images/minimap/mm_mushroom_player0.tga"></img>
+			<img id="mm_mushroom_player0_3" src="./images/minimap/mm_mushroom_player0.tga"></img>
+			<img id="mm_mushroom_player1_0" src="./images/minimap/mm_mushroom_player1.tga"></img>
+			<img id="mm_mushroom_player1_1" src="./images/minimap/mm_mushroom_player1.tga"></img>
+			<img id="mm_mushroom_player1_2" src="./images/minimap/mm_mushroom_player1.tga"></img>
+			<img id="mm_mushroom_player1_3" src="./images/minimap/mm_mushroom_player1.tga"></img>
+			<img id="mm_mushroom_player2_0" src="./images/minimap/mm_mushroom_player2.tga"></img>
+			<img id="mm_mushroom_player2_1" src="./images/minimap/mm_mushroom_player2.tga"></img>
+			<img id="mm_mushroom_player2_2" src="./images/minimap/mm_mushroom_player2.tga"></img>
+			<img id="mm_mushroom_player2_3" src="./images/minimap/mm_mushroom_player2.tga"></img>
+			<img id="mm_mushroom_player3_0" src="./images/minimap/mm_mushroom_player3.tga"></img>
+			<img id="mm_mushroom_player3_1" src="./images/minimap/mm_mushroom_player3.tga"></img>
+			<img id="mm_mushroom_player3_2" src="./images/minimap/mm_mushroom_player3.tga"></img>
+			<img id="mm_mushroom_player3_3" src="./images/minimap/mm_mushroom_player3.tga"></img>
+			<img id="mm_leprechaun0" src="./images/minimap/mm_leprechaun0.tga"></img>
+			<img id="mm_leprechaun1" src="./images/minimap/mm_leprechaun1.tga"></img>
+			<img id="mm_leprechaun2" src="./images/minimap/mm_leprechaun2.tga"></img>
+			<img id="mm_leprechaun3" src="./images/minimap/mm_leprechaun3.tga"></img>
+			<img id="mm_pig" src="./images/minimap/mm_pig.tga"></img>
+		</div>
+
+		<div id="inventory_root">
+			<div id="inventory">
+				<div id="attack" class="kick_attack"></div>
+
+				<div id="items">
+					<div id="itemslot0" class="slot none_item"></div>
+					<div id="itemslot1" class="slot none_item"></div>
+					<div id="itemslot2" class="slot none_item"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</rml>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB7AF821-DA98-40D9-A7AB-E8912CDE0F53}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LuckyLeprechaunsServer</RootNamespace>
+    <AssemblyName>LuckyLeprechaunsServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\AI\BasicAI.cs" />
+    <Compile Include="Components\AI\MushroomAI.cs" />
+    <Compile Include="Components\Manager\ItemsManager.cs" />
+    <Compile Include="Components\Manager\TrapManager.cs" />
+    <Compile Include="Components\Mushroom\Mushroom.cs" />
+    <Compile Include="Components\AI\PigAI.cs" />
+    <Compile Include="Components\Manager\VegetationManager.cs" />
+    <Compile Include="Components\Rainbow.cs" />
+    <Compile Include="Components\Mushroom\Stone.cs" />
+    <Compile Include="Components\Trap.cs" />
+    <Compile Include="Extension\QuaternionExtension.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketRemoveTrap.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketAddItem.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketAddTrap.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketCollectItem.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketDrawable.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketId.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketMushroom.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketRemoveItem.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketStone.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketStoneHit.cs" />
+    <Compile Include="Physics\BoundingCylinder.cs" />
+    <Compile Include="Components\Leprechaun\Cane.cs" />
+    <Compile Include="Network\Client.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Components\DrawableGameComponent.cs" />
+    <Compile Include="Network\Constants\Flags.cs" />
+    <Compile Include="Components\Leprechaun\Hat.cs" />
+    <Compile Include="Components\Leprechaun\Leprechaun.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketAddPlayer.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacket.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketPig.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketRemovePlayer.cs" />
+    <Compile Include="Network\Constants\NetworkPacketTypes.cs" />
+    <Compile Include="Network\NetworkPackets\NetworkPacketWelcome.cs" />
+    <Compile Include="Components\Pig.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Network\Server.cs" />
+    <Compile Include="Components\Terrain.cs" />
+    <Compile Include="Extension\Vector3Extension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Textures\Heightmap.raw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Config\Vegetation.xml" />
+    <Content Include="Content\Textures\Heightmap.png" />
+    <Content Include="Content\Textures\Normalmap.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Content" "$(TargetDir)Content" /e /y /i /r</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

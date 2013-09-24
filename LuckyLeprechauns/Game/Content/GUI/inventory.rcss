@@ -1,0 +1,106 @@
+div#inventory_root
+{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+div#inventory
+{
+	height:150px;
+	width:100%;
+	clear:both;
+	float:none;
+	position:absolute;
+	margin:auto 0 0 0;
+	padding:7px 20px 7px 20px;
+}
+
+div#attack
+{
+	width:150px;
+	height:150px;
+	float:left;
+}
+
+div#items
+{
+	width:340px;
+	margin:50px 20px 0 auto;
+}
+
+div#items div
+{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:10px;
+}
+
+div.none_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/none.tga;
+}
+
+div.show_invisibility_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/show_invisibility.tga;
+}
+
+div.attack_double_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/attack_double.tga;
+}
+
+div.pig_robbery_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/pig_robbery.tga;
+}
+
+div.invulnerability_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/invulnerability.tga;
+}
+
+div.explosion_trap_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/explosion_trap.tga;
+}
+
+div.invisibility_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/invisibility.tga;
+}
+
+div.speed_boost_item
+{
+	background-decorator:image;
+	background-image-src:./images/items/speed_boost.tga;
+}
+
+div.kick_attack
+{
+	background-decorator:image;
+	background-image-src:./images/attacks/kick.tga;
+}
+
+div.cane_attack
+{
+	background-decorator:image;
+	background-image-src:./images/attacks/cane.tga;
+}
+
+div.hat_attack
+{
+	background-decorator:image;
+	background-image-src:./images/attacks/hat.tga;
+}

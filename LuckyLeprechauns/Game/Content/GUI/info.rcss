@@ -1,0 +1,57 @@
+div#info
+{
+	width:360px;
+	height:90px;
+
+	margin:10px 0 0 10px;
+	padding:10px 0 0 10px;
+
+	background-decorator:image;
+	background-image-src:./images/info/pergament.tga;
+
+	float:left;
+}
+
+div.player_content
+{
+	width:70px;
+	float:left;
+	margin-left:4px;
+	padding-top:5px;
+}
+
+div#player0
+{
+	color:red;
+	margin-left:40px;
+}
+
+div#player1
+{
+	color:rgb(0,255,0);
+}
+
+div#player2
+{
+	color:blue;
+}
+
+div#player3
+{
+	color:yellow;
+}
+
+div.player_content img
+{
+	width:25px;
+	height:25px;
+}
+
+div.rainbow_progress,
+div.mushroom_count
+{
+	display:inline;
+	text-align:right;
+	margin-left:5px;
+	padding:0 0 5px 0;
+}

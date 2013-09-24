@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicCollection.h" />
+    <ClInclude Include="BasicComponent.h" />
+    <ClInclude Include="BasicManager.h" />
+    <ClInclude Include="BoundingBox.h" />
+    <ClInclude Include="BoundingFrustum.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ConfigKeys.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="BasicEffect.h" />
+    <ClInclude Include="ConstControlledComponent.h" />
+    <ClInclude Include="ContainmentType.h" />
+    <ClInclude Include="ControlledComponent.h" />
+    <ClInclude Include="ControlledGraphicsComponent.h" />
+    <ClInclude Include="ControlledNetworkComponent.h" />
+    <ClInclude Include="Converter.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="FBXAnimation.h" />
+    <ClInclude Include="FBXBone.h" />
+    <ClInclude Include="FBXEffect.h" />
+    <ClInclude Include="FBXInstance.h" />
+    <ClInclude Include="FBXMaterial.h" />
+    <ClInclude Include="FBXMesh.h" />
+    <ClInclude Include="FBXModel.h" />
+    <ClInclude Include="FBXModelLoader.h" />
+    <ClInclude Include="FBXRenderer.h" />
+    <ClInclude Include="FBXVertex.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="GraphicsHelpers.h" />
+    <ClInclude Include="GuiComponent.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="GuiRenderer.h" />
+    <ClInclude Include="GuiSystem.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="IBasicComponent.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="NetworkComponent.h" />
+    <ClInclude Include="NetworkDevice.h" />
+    <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="NetworkPacket.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="RenderToSurface.h" />
+    <ClInclude Include="SoundComponent.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StateBlock.h" />
+    <ClInclude Include="STL.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Validator.h" />
+    <ClInclude Include="DrawableGameComponent.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameComponent.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="GraphicsBuffer.h" />
+    <ClInclude Include="GraphicsComponent.h" />
+    <ClInclude Include="GraphicsDevice.h" />
+    <ClInclude Include="GraphicsManager.h" />
+    <ClInclude Include="GraphicsTypes.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="InputDevice.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="KeyboardState.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Logging.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MouseState.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
+    <ClInclude Include="VertexBuffer.h" />
+    <ClInclude Include="VertexDeclaration.h" />
+    <ClInclude Include="VertexTypes.h" />
+    <ClInclude Include="Viewport.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicManager.cpp" />
+    <ClCompile Include="BoundingBox.cpp" />
+    <ClCompile Include="BoundingFrustum.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ConfigKeys.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="BasicEffect.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="DrawableGameComponent.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="Exceptions.cpp" />
+    <ClCompile Include="FBXEffect.cpp" />
+    <ClCompile Include="FBXInstance.cpp" />
+    <ClCompile Include="FBXModel.cpp" />
+    <ClCompile Include="FBXModelLoader.cpp" />
+    <ClCompile Include="FBXRenderer.cpp" />
+    <ClCompile Include="FBXVertex.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameComponent.cpp" />
+    <ClCompile Include="GraphicsComponent.cpp" />
+    <ClCompile Include="GraphicsDevice.cpp" />
+    <ClCompile Include="GraphicsManager.cpp" />
+    <ClCompile Include="GuiComponent.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="GuiRenderer.cpp" />
+    <ClCompile Include="GuiSystem.cpp" />
+    <ClCompile Include="IBasicComponent.cpp" />
+    <ClCompile Include="IndexBuffer.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="KeyboardState.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Logging.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MouseState.cpp" />
+    <ClCompile Include="NetworkComponent.cpp" />
+    <ClCompile Include="NetworkDevice.cpp" />
+    <ClCompile Include="NetworkManager.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="RenderToSurface.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StateBlock.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TinyXML\tinystr.cpp" />
+    <ClCompile Include="TinyXML\tinyxml.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="Validator.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+    <ClCompile Include="Vector4.cpp" />
+    <ClCompile Include="VertexBuffer.cpp" />
+    <ClCompile Include="VertexTypes.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Config\Config.txt" />
+    <None Include="Content\Effects\FBX\FBX.fx" />
+    <None Include="Content\Textures\FBX\Default.png" />
+    <None Include="DLL\d3dx10_43.dll" />
+    <None Include="DLL\d3dx9_43.dll" />
+    <None Include="DLL\msvcr90.dll" />
+    <None Include="DLL\RocketCore.dll" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B42766F0-0CF0-4105-BA70-E1E53F2D0CA3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Framework</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnablePREfast>false</EnablePREfast>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\libRocket\Include;$(SolutionDir)\Framework\FBXSDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>fbxsdk-2012.1-mdd.lib;RocketCore.lib;wininet.lib;ws2_32.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libRocket\bin;$(ProjectDir)\FBXSDK\lib\vs2010\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>LIBMCT</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>/ignore:4221 /ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Content" "$(TargetDir)Content" /e /y /i /r
+xcopy "$(ProjectDir)DLL" "$(TargetDir)" /e /y /i /r</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FRAMEWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Framework\FBXSDK\include;$(SolutionDir)\Framework\libRocket\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)\libRocket\bin;$(ProjectDir)\FBXSDK\lib\vs2010\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fbxsdk-2012.1-md.lib;wininet.lib;RocketCore.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4221 /ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Content" "$(TargetDir)Content" /e /y /i /r
+xcopy "$(ProjectDir)DLL" "$(TargetDir)" /e /y /i /r</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

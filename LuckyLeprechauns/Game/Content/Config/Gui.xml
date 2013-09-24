@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gui>
+	<Fonts path="Content/GUI/fonts/">
+		<Font name="Delicious" file="Delicious-Bold.otf"></Font>
+	</Fonts>
+	<Hud path="Content/GUI/hud.rml">
+		<Attacks elementId="attack">
+			<Attack id="0" class="kick_attack"></Attack>
+			<Attack id="1" class="cane_attack"></Attack>
+			<Attack id="2" class="hat_attack"></Attack>
+		</Attacks>
+		<Items elementId="itemslot">
+			<Item id="0" class="none_item"></Item>
+			<Item id="1" class="explosion_trap_item"></Item>
+			<Item id="2" class="speed_boost_item"></Item>
+			<Item id="3" class="invisibility_item"></Item>
+			<Item id="4" class="attack_double_item"></Item>
+			<Item id="5" class="show_invisibility_item"></Item>
+			<Item id="6" class="invulnerability_item"></Item>
+			<Item id="7" class="pig_robbery_item"></Item>
+		</Items>
+	</Hud>
+	<Minimap elementId="minimap" inGameWidth="750" inGameHeight="750" imageSize="16">
+		<Rainbow elementId="mm_rainbow" x="0" z="0"></Rainbow>
+		<Leprechauns>
+			<Leprechaun elementId="mm_leprechaun0" playerId="0" nickname="red"></Leprechaun>
+			<Leprechaun elementId="mm_leprechaun1" playerId="1" nickname="green"></Leprechaun>
+			<Leprechaun elementId="mm_leprechaun2" playerId="2" nickname="blue"></Leprechaun>
+			<Leprechaun elementId="mm_leprechaun3" playerId="3" nickname="yellow"></Leprechaun>
+		</Leprechauns>
+		<Pig elementId="mm_pig"></Pig>
+	</Minimap>
+</Gui>

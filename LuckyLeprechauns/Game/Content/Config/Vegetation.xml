@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vegetation>
+	<Object modelPath="Content/Models/Vegetation/Tree.fbx" alphaCutoff="0.6f">
+		<Transform translateX="-30" translateZ="25" rotateY="1" scale="0.9f" />
+		<Transform translateX="-100" translateZ="-160" rotateY="2" scale="0.8f" />
+		<Transform translateX="-60" translateZ="-170" rotateY="3" scale="1" />
+		<Transform translateX="133" translateZ="-87" rotateY="4" scale="0.7f" />
+		<Transform translateX="-10" translateZ="-120" rotateY="5" scale="0.8f" />
+		<Transform translateX="40" translateZ="0" rotateY="6" scale="0.9f" />
+		<Transform translateX="-170" translateZ="20" rotateY="7" scale="0.8f" />
+		<Transform translateX="-150" translateZ="-100" rotateY="8" scale="1" />
+		<Transform translateX="130" translateZ="-150" rotateY="9" scale="0.7f" />
+		<Transform translateX="140" translateZ="-130" rotateY="1" scale="0.9f" />
+		<Transform translateX="115" translateZ="-135" rotateY="2" scale="0.8f" />
+		<Transform translateX="60" translateZ="0" rotateY="3" scale="1" />
+		<Transform translateX="50" translateZ="-20" rotateY="4" scale="0.7f" />
+		<Transform translateX="-25" translateZ="-110" rotateY="5" scale="0.8f" />
+		<Transform translateX="-140" translateZ="-80" rotateY="6" scale="0.9f" />
+		<Transform translateX="-130" translateZ="-100" rotateY="7" scale="0.8f" />
+		<Transform translateX="-190" translateZ="20" rotateY="8" scale="1" />
+	</Object>
+	<Object modelPath="Content/Models/Vegetation/Rock.fbx" alphaCutoff="0.0f">
+		<Transform translateX="-70" translateZ="-120" rotateY="1" scale="2.3f" />
+		<Transform translateX="-90" translateZ="70" rotateY="2" scale="2.5f" />
+		<Transform translateX="-70" translateZ="-20" rotateY="3" scale="2.6f" />
+		<Transform translateX="110" translateZ="-50" rotateY="4" scale="2.5f" />
+		<Transform translateX="10" translateZ="-140" rotateY="5" scale="2.6f" />
+		<Transform translateX="30" translateZ="-40" rotateY="6" scale="2.4f" />
+		<Transform translateX="-170" translateZ="-40" rotateY="6" scale="2.4f" />
+	</Object>
+</Vegetation>

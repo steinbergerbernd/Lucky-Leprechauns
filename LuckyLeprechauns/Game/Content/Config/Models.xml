@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Models>
+	<Leprechaun path="Content/Models/Leprechaun/Leprechaun.fbx" keyframes="1140">
+		<Animation name="Leprechaun.Run" start="1" length="59" fps="120" priority="0" />
+		<Animation name="Leprechaun.Idle" start="61" length="59" fps="10" priority="0" />
+		<Animation name="Leprechaun.Kick.Standing" start="121" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Cane.Standing" start="181" length="59" fps="180" priority="1" />
+		<Animation name="Leprechaun.Hat.Standing" start="241" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Cane.Running" start="301" length="59" fps="180" priority="1" />
+		<Animation name="Leprechaun.Hat.Running" start="361" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Kick.Running" start="421" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Pig.Carry.Standing" start="481" length="59" fps="10" priority="1" />
+		<Animation name="Leprechaun.Pig.Carry.Running" start="541" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Fly" start="601" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Pig.Throw.Standing" start="661" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Pig.Throw.Running" start="721" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Trap.Standing" start="781" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Trap.Running" start="841" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Jump" start="901" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Dodge.Right" start="961" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Dodge.Left" start="1021" length="59" fps="120" priority="1" />
+		<Animation name="Leprechaun.Cane.Hit" start="1081" length="59" fps="20" priority="1" />
+	</Leprechaun>
+	<Mushroom path="Content/Models/Mushroom/Mushroom.fbx" keyframes="180">
+		<Animation name="Mushroom.Run" start="1" length="59" fps="20" priority="0" />
+		<Animation name="Mushroom.Idle" start="61" length="59" fps="10" priority="0" />
+		<Animation name="Mushroom.Attack" start="121" length="59" fps="59" priority="0" />
+	</Mushroom>
+	<Item path="Content/Models/Items/Item.fbx" keyframes="240">
+		<Animation name="Item.Idle" start="1" length="239" fps="60" priority="0" />
+	</Item>
+	<Pig path="Content/Models/Pig/Pig.fbx" keyframes="120" >
+		<Animation name="Pig.Run" start="1" length="59" fps="120" priority="0" />
+		<Animation name="Pig.Idle" start="61" length="59" fps="10" priority="0" />
+	</Pig>
+	<Stone path="Content/Models/Mushroom/Stone.fbx" />
+	<Eye path="Content/Models/Leprechaun/Eye.fbx" />
+	<Bubble path="Content/Models/Leprechaun/Bubble.fbx" />
+	<Hat path="Content/Models/Leprechaun/Hat.fbx" />
+	<Cane path="Content/Models/Leprechaun/Cane.fbx" />
+	<Skybox path="Content/Models/Skybox/Skybox.fbx" />
+	<ExplosionTrap path="Content/Models/Items/ExplosionTrap.fbx" />
+	<Rainbow path="Content/Models/Rainbow/Rainbow.fbx" />
+	<Goldpot path="Content/Models/Goldpot/Goldpot.fbx" />
+</Models>
